@@ -1,0 +1,174 @@
+/*
+Theme Name: Charity
+Theme URI: www.mobbzys.co.uk
+Author: Daniel Mobbs
+Author URI: nothing here...
+Description: This theme is my first theme, it is the start...
+Version: 1.2
+
+Please share this theme...
+*/
+
+/*===GLODBEL HEADINGS===*/
+
+body { 
+  padding: 0; 
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+  /*border: 1px solid red;*/
+}
+
+/****
+
+NAV CUSTOM STYLES
+=================
+could'nt seem to get the nav working so just did 
+this to apply styles.
+
+*****/
+
+/* Nav links */
+.nav-link {
+  position: relative;
+  padding: 0 1rem 0.5rem 1rem;
+  font-weight: 500;
+  color: #cdddeb;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: #fff;
+  background-color: transparent;
+}
+
+/*===DROPDOWN NAV===*/
+.dropdown-item {
+  transition: 0.5s ease;
+  color: #504A4B;
+}
+.dropdown-item:hover {
+  color: #848482;
+}
+.dropdown-item.active, .dropdown-item:active {
+  color: #000;
+  background-color: #fff;
+}
+
+/*===WIDGET-MENU===*/
+.menu {
+  list-style: none;
+}
+.widget-menu h3 {
+  padding-left: 50px;
+}
+.menu a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/*===SEARCHBAR:)===*/
+
+label.screen-reader-text {
+  display: none;
+}
+#searchsubmit {
+  cursor: pointer;
+}
+
+/*===EVENTS===*/
+
+.events-bk {
+  background: url('http://placeimg.com/3000/800/any') no-repeat;
+  padding: 20px;
+}
+.events-title {
+  background-color: #eeeeee;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+/*===BLOG===*/
+
+/*Blog-post*/
+
+.blog-post {
+  margin-bottom: 4rem;
+  width: 40rem;
+}
+.blog-post p {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+/*===CARD COLOR===*/
+.card-bottom h4, .card-bottom p {
+  color: #fff;
+}
+.card-bottom {
+  background-color: #0e79b2;
+}
+
+/*===APP SECTION===*/
+
+.card-app {
+  background-color: #f5b73d;
+}
+
+/*===IMAGES===*/
+
+.img-container {
+  width: 100%;
+  height: 600px;
+}
+
+/*===FOOTER===*/
+
+footer {
+  background-color: #343a40;
+  padding: 50px;
+}
+.footer-below {
+  padding-top: 100px;
+}
+.footer-text h3, .footer-text p, .footer-text {  
+  color: #fff;
+}
+
+/*===CONTACT FORM===*/
+
+.very-special-field,
+input[type="email"]
+{
+  background-color: #fff;
+  color: #000;
+  width: 100%;
+  height: 30px;
+  border: 1px #000 solid;
+}
+textarea {
+  background-color: #fff;
+  color: #000;
+  width: 100%;
+  height: 200px;
+  border: 1px #000 solid;
+}
+
+/*===UNDERLINE===*/
+
+.underline {
+  margin: 80px;
+  border: 5px solid #ddd;
+}
+
+/*===BUTTON PDF===*/
+#button-pdf {
+  margin-left: 250px;
+  padding: 10px;
+}
+
+/*===BUTTON===*/
+
+.btn-primary {
+  background-color: #fff;
+}
